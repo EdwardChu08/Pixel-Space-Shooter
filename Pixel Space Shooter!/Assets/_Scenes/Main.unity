@@ -337,6 +337,7 @@ GameObject:
   - 82: {fileID: 264282850}
   - 64: {fileID: 264282852}
   - 136: {fileID: 264282853}
+  - 95: {fileID: 264282847}
   m_Layer: 0
   m_Name: Ship
   m_TagString: Player
@@ -377,6 +378,23 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!95 &264282847
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 264282845}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6c29a0638d53e4554a5283831b2755d0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!4 &264282848
 Transform:
   m_ObjectHideFlags: 0
